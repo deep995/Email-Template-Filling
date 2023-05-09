@@ -108,7 +108,3 @@ with open(csv_file, "r", newline="") as file:
             print(f"Template: {template_name}")
             print(f"Filled Template: {filled_template}")
           print()
-
-#                 print(f"Template: {template_name}")
-#                 print(f"Filled Template: {filled_template}")
-#                 print()
