@@ -1,4 +1,6 @@
-
+google-colab
+spacy
+pandas
 
 These are the libraries used in the code. 
 
