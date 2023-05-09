@@ -109,26 +109,6 @@ with open(csv_file, "r", newline="") as file:
             print(f"Filled Template: {filled_template}")
           print()
 
-# # Define the input CSV file path
-# csv_file = "/content/drive/MyDrive/Colab Notebooks/labeled_emails.csv"
-
-# df= pd.read_csv(csv_file)
-# df.drop('label', axis=1, inplace = True)
-# df['email'] = df['email'].str.upper()
-
-# for index, row in df.iterrows():
-#         email_text = row['email']
-
-#         # Process the email text using spaCy
-#         doc = nlp(email_text)
-
-#         # Iterate over the detected entities in the document
-#         for ent in doc.ents:
-#             print(ent.label_)
-#             if ent.label_ in templates:
-#                 # If the entity label matches a template, fill the template
-#                 template_name = ent.label_
-#                 filled_template = templates[template_name](doc)
 #                 print(f"Template: {template_name}")
 #                 print(f"Filled Template: {filled_template}")
 #                 print()
