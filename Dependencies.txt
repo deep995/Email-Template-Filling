@@ -1,0 +1,7 @@
+
+
+These are the libraries used in the code. 
+
+google-colab is used to mount the Google Drive 
+spacy is used for natural language processing 
+pandas is used for handling CSV files.
